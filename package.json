@@ -1,6 +1,6 @@
 {
   "name": "element-ui-x",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "A Enhance Component Library for Element-UI",
   "main": "lib/element-ui.common.js",
   "files": [
