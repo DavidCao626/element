@@ -1,6 +1,6 @@
 
 
-> 此包正在内部测试，当前不建议使用。
+> [文档](https://davidcao626.github.io/element-x/)
 
 ## Install
 ```shell

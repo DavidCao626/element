@@ -52,7 +52,7 @@ const registerRouteX = navx => {
     let navs = navx[lang];
     route.push({
       path: `/${lang}/componentX`,
-      redirect: `/${lang}/componentX/elx-table`,
+      redirect: `/${lang}/componentX/table-x-layout`,
       component: load(lang, 'componentX'),
       children: []
     });

@@ -4,11 +4,11 @@
       "name": "增强组件",
       "groups": [
         {
-          "groupName": "Data",
+          "groupName": "layout",
           "list": [
             {
-              "path": "/elx-table",
-              "title": "elx-table 表格"
+              "path": "/table-x-layout",
+              "title": "Table Layout 表格布局"
             }
           ]
         }
