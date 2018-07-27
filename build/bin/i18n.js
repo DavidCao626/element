@@ -21,7 +21,7 @@ langConfig.forEach(lang => {
     Object.keys(pairs).forEach(key => {
       content = content.replace(new RegExp(`<%=\\s*${ key }\\s*>`, 'g'), pairs[key]);
     });// 替换翻译过后的文字
-
+    console.log(outputPath);
     fs.writeFileSync(outputPath, content);
   });
 });

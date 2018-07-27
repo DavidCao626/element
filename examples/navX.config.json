@@ -1,0 +1,25 @@
+{
+  "zh-CN": [
+    {
+      "name": "增强组件",
+      "groups": [
+        {
+          "groupName": "Data",
+          "list": [
+            {
+              "path": "/elx-table",
+              "title": "elx-table 表格"
+            }
+          ]
+        }
+        
+      ]
+    }
+  ],
+  "en-US": [
+    {
+      "name": "Changelog",
+      "path": "/changelog"
+    }
+  ]
+}
