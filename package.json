@@ -1,7 +1,7 @@
 {
-  "name": "element-ui",
-  "version": "2.3.2",
-  "description": "A Component Library for Vue.js.",
+  "name": "element-x",
+  "version": "0.1.0",
+  "description": "A Enhance Component Library for Element-UI",
   "main": "lib/element-ui.common.js",
   "files": [
     "lib",
@@ -31,22 +31,22 @@
     "test:watch": "npm run build:theme && karma start test/unit/karma.conf.js"
   },
   "faas": {
-    "domain": "element",
+    "domain": "element-x",
     "public": "temp_web/element"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:ElemeFE/element.git"
+    "url": "https://github.com/DavidCao626/element-x"
   },
   "homepage": "http://element.eleme.io",
   "keywords": [
-    "eleme",
+    "element-x",
     "vue",
     "components"
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ElemeFE/element/issues"
+    "url": "https://github.com/DavidCao626/element/issues"
   },
   "unpkg": "lib/index.js",
   "style": "lib/theme-chalk/index.css",
