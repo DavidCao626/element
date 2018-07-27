@@ -1,5 +1,5 @@
 {
-  "name": "element-x",
+  "name": "element-ui-x",
   "version": "0.1.0",
   "description": "A Enhance Component Library for Element-UI",
   "main": "lib/element-ui.common.js",
