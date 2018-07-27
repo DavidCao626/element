@@ -3,9 +3,10 @@ var save = require('file-save');
 var resolve = require('path').resolve;
 var basename = require('path').basename;
 var localePath = resolve(__dirname, '../../src/locale/lang');
-var fileList = fs.readdirSync(localePath);
+var fileList = fs.readdirSync(localePath); // 读取本地语言文件
 
 var transform = function(filename, name, cb) {
+  // 异步转码
   require('babel-core').transformFile(resolve(localePath, filename), {
     plugins: [
       'add-module-exports',

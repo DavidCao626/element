@@ -12,14 +12,15 @@ langConfig.forEach(lang => {
   }
 
   Object.keys(lang.pages).forEach(page => {
-    var templatePath = path.resolve(__dirname, `../../examples/pages/template/${ page }.tpl`);
+    var templatePath = path.resolve(__dirname, `../../examples/pages/template/${page}.tpl`);
+
     var outputPath = path.resolve(__dirname, `../../examples/pages/${ lang.lang }/${ page }.vue`);
-    var content = fs.readFileSync(templatePath, 'utf8');
-    var pairs = lang.pages[page];
+    var content = fs.readFileSync(templatePath, 'utf8');// 读取页面内容
+    var pairs = lang.pages[page];// 取到当中的值
 
     Object.keys(pairs).forEach(key => {
       content = content.replace(new RegExp(`<%=\\s*${ key }\\s*>`, 'g'), pairs[key]);
-    });
+    });// 替换翻译过后的文字
 
     fs.writeFileSync(outputPath, content);
   });
